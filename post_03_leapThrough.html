@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>JHC Research - Home</title>
+    <title>Leap Through</title> <!-- TODO add title -->
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -44,7 +44,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-		<a class="navbar-brand" href="http://jacobhclarkson.github.io/">Jacob H Clarkson</a>
+                <a class="navbar-brand" href="http://jacobhclarkson.github.io/">Jacob H Clarkson</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -59,9 +59,6 @@
                     <li>
                         <a href="contact.html">Contact</a>
                     </li>
-                    <li>
-                        <a href="http://vexing.cs.uct.ac.za/">Research Group</a>
-                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -71,116 +68,47 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/oculus-bg.jpg')">
+    <header class="intro-header" style="background-image: url('img/leap-oculus-bg.png')"> <!-- TODO change header image -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>Master's Research</h1>
-                        <hr class="small">
-                        <span class="subheading">User Experience in Virtual Reality</span>
+                    <div class="post-heading">
+			<h1>Leap Through</h1> <!--TODO change post title and subtitle-->
+                        <h2 class="subheading">Seeing "through" the Oculus Rift with the Leap Motion Controller</h2>
+			<span class="meta">Posted by <a href="http://jacobhclarkson.github.io/">Jacob H Clarkson</a> on May 25, 2016</span> <!--TODO chage date-->
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			<!-- TODO write content -->    
+			<h2>Leap + Oculus</h2>
+			<p>
+				The image below shows a Leap Motion controller attached to the front of an Oculus Rift DK2. There are several reasons one may wish to do this. Perhaps the most obvious is to use the hand tracking capabilities of the Leap Motion to facilitate interactions in VR - the wearer of the Head Mounted Display would be able to use their own hands as "controllers" in a game or virtual environment.
+			</p>
+		        <center><img class="img-responsive" src="img/leap-oculus.jpg" alt=""></center>
+			<p>
+				However, directly accessing the twin IR cameras that the Leap Motion uses for hand tracking allows users to see through the HMD. Combined with the hand tracking capabilities of the Leap, this setup allows for the implementation of a technique called "Minimal Blending" Augmented Virtuality. Whenever the user looks down at their hands, or holds their hands up in front of their face, the Leap detects the hands. At the positions of the hands, view ports into the real world are opened. This unobtrusive and intuitive addition of the real into the virtual makes it easy to interact with real world objects without ever having to remove the HMD.
+			</p>
 
-    <!	-- example blog post preview entry -->
-<!--
-		<div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Man must explore, and this is exploration at its greatest
-                        </h2>
-                        <h3 class="post-subtitle">
-                            Problems look mighty small from 150 miles up
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2014</p>
-                </div>
--->
+			<p>The video below shows an early prototype of such a system in action. Note the ease with which the user is able to locate and interact with the objects on his desk.
+			</p>
 
-    <!-- Main Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
-		<!-- POST PREVIEWS GO HERE -->
-
-		<div class="post-preview">
-                    <a href="post_03_leapThrough.html">
-                        <h2 class="post-title">
-                            One Small Leap for VR
-                        </h2>
-                        <h3 class="post-subtitle">
-                            Using the leap motion controller with the Oculus Rift
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="http://jacobhclarkson.github.io/">Jacob H Clarkson</a> on May 25, 2016</p>
-                </div>
-
-		<div class="post-preview">
-                    <a href="resources/ResearchProposal.pdf">
-                        <h2 class="post-title">
-                            Research Proposal
-                        </h2>
-                        <h3 class="post-subtitle">
-			    What I intend to do (liable to change).
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="http://jacobhclarkson.github.io/">Jacob H Clarkson</a> on April 29, 2016</p>
-                </div>
-
-		<div class="post-preview">
-                    <a href="post_02_firstSteps.html">
-                        <h2 class="post-title">
-                            First Steps Towards Augmented Virtuality
-                        </h2>
-                        <h3 class="post-subtitle">
-			    Directly accessing the Leap Motion camera feed.
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="http://jacobhclarkson.github.io/">Jacob H Clarkson</a> on April 22, 2016</p>
-                </div>
-
-		<div class="post-preview">
-                    <a href="post_01_leap.html">
-                        <h2 class="post-title">
-                            The Leap Motion Controller
-                        </h2>
-                        <h3 class="post-subtitle">
-			    A small tech showcase.
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="http://jacobhclarkson.github.io/">Jacob H Clarkson</a> on April 22, 2016</p>
-                </div>
-
-		<div class="post-preview">
-                    <a href="#">
-                        <h2 class="post-title">
-                            First post coming soon...
-                        </h2>
-                        <h3 class="post-subtitle">
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="http://jacobhclarkson.github.io/">Jacob H Clarkson</a> on March 15, 2016</p>
-                </div>
-                
-
-
-                <!-- Pager 
-                <ul class="pager">
-                    <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
-                    </li>
-                </ul>
-		-->
+			<center><iframe width="560" height="315" src="https://www.youtube.com/embed/M-EMIdBx5Xw" frameborder="0" allowfullscreen></iframe></center>
+		     
+		</div>
             </div>
         </div>
-    </div>
+    </article>
 
     <hr>
+
     <!-- Footer -->
     <footer>
         <div class="container">
